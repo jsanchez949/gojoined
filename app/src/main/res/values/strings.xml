@@ -1,0 +1,123 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Titulos de las ventanas y aplicacion-->
+    <string name="app_name">GoJoined</string>
+    <string name="usuario">Usuario</string>
+    <string name="passwd">Contraseña</string>
+    <string name="titulo">GoJoined</string>
+
+    <!--Titulos de los activity-->
+    <!--Botones-->
+    <string name="btn_entrar">Entrar</string>
+    <!--Google Maps-->
+
+    <!--EXPORT OLD VERSION-->
+    <string name="bienvenida">Bienvenido a GoJoined</string>
+    <string name="descripcion_pantallainicio">GoJoined es una aplicación de gestión laboral en la cuál los usuarios registrados
+        en la aplicación tendrán el privilegio de administrar con mayor facilidad las tareas de su ámbito de trabajo.</string>
+    <string name="cargando">Cargando...</string>
+    <string name="copyright">© Jesús Sánchez Sánchez</string>
+    <!--Titulos de las ventanas y aplicacion-->
+    <string name="ajustes">Ajustes</string>
+    <string name="nomcliente" tools:ignore="MissingTranslation">Nombre Cliente</string>
+    <string name="entrar">Entrar</string>
+    <string name="nom_usuario">Nombre:</string>
+    <string name="passwd_usuario">Contraseña:</string>
+    <string name="telefono_usuario">Telefono:</string>
+    <string name="txtCategoria">Categoría:</string>
+    <string name="txtLongitud">Longitud:</string>
+    <string name="txtLatitud">Latitud:</string>
+    <string name="txtfecha">Fecha:</string>
+    <string name="nomCliente" tools:ignore="MissingTranslation">Cliente:</string>
+    <string name="txtApellidos">Apellidos:</string>
+    <string name="txtLogin">Usuario:</string>
+    <string name="txtTrabajadorID">Trabajador:</string>
+    <string name="txtClienteID">Cliente:</string>
+    <string name="txtCiudad">Ciudad:</string>
+    <string name="txtCp">Código Postal:</string>
+    <string name="txtEmpresa">Empresa:</string>
+
+    <string name="cliente">Cliente</string>
+    <string name="txtCobro">Cobro:</string>
+    <string name="txtDireccion">Direccion:</string>
+    <string name="txtTarea">Tarea:</string>
+    <string name="tarea">Tarea</string>
+    <string name="cobro">Cobro</string>
+    <string name="tituloVentanaCliente">Ventana Clientes</string>
+    <string name="modificarCliente">Modificar Cliente</string>
+    <string name="btn_addCliente">Añadir Clientes</string>
+    <string name="btn_addVisitas">Añadir Visita</string>
+    <string name="btn_mostrarClientes">Mostrar Clientes</string>
+    <string name="titulo_clientes">Clientes de la aplicación</string>
+    <string name="titulo_visitas">Citas de los clientes</string>
+    <string name="verClientes">Ver Clientes</string>
+    <string name="verVisitas">Ver Citas</string>
+    <string name="tituloVentanaVisitas">Ventana Citas</string>
+    <string name="tituloListaVisitasDetail">Información de la visita</string>
+
+    <string name="direccion">Dirección:</string>
+    <string name="informacion_creador">GoJoined es una aplicación creada por Jesús Sánchez Sánchez, alumno del ciclo formativo
+    de Grado Superior de Desarrollo de Aplicaciones Multiplataforma.</string>
+    <string name="informacion_aplicacion">Esta aplicación sirve para ayudar a la gestión sanitaria de los trabajadores, en la cual
+    estós pueden organizarse através de un administrador que será el encargado de añadir nuevas citas para que el usuario cuando entre
+    a la aplicación pueda ver las visitas a domicilio que tiene que hacer, para hacerle el trabajo más facil al usuario esté dispondrá
+    en su móvil gracias a la aplicacion un mapa en el cuál le señalara donde se encuentra la visita a domicilio que tiene que hacer gracias
+    a Google Maps.</string>
+    <string name="informacion_boton">Para saber más acerca de la aplicación y funcionamiento, pulse en el botón.</string>
+    <!--Titulos de los activity-->
+    <string name="informacion">Información</string>
+    <string name="tituloVentanaAdmin">Ventana Administrador</string>
+    <string name="tituloVentanaUsuario">Ventana Usuario</string>
+    <string name="tituloVentanaAddCliente">Agregar Cliente</string>
+    <string name="tituloVentanaAddUsuario">Agregar Usuario</string>
+    <string name="tituloVentanaAddVisitas">Agregar Cita</string>
+    <string name="tituloVentanaListaUsuarios">Lista de Usuarios</string>
+    <string name="tituloVentanaListaClientes">Lista de Clientes</string>
+    <string name="tituloVentanaListaVisitas">Lista de Citas</string>
+    <string name="tituloMapsActivity">Mapa Clientes</string>
+    <string name="tituloVentanaTema">Cambiar Tema</string>
+    <string name="modificarUsuario">Modificar Usuario</string>
+    <!--Botones-->
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_eliminarUsuario">Eliminar</string>
+    <string name="btn_volver">Volver</string>
+    <string name="btn_addUsuario">Añadir Usuario</string>
+    <string name="btn_salir">Salir</string>
+    <string name="btn_mostrarContactos">Mostrar Contactos</string>
+    <string name="btn_modificar">Modificar</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_mapas">GoogleMaps</string>
+    <string name="agregar">Agregar</string>
+    <string name="btn_informacion">Información</string>
+    <string name="rojo">Rojo</string>
+    <string name="verde">Verde</string>
+    <string name="azul">Azul</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="naranja">Naranja</string>
+    <string name="rosa">Rosa</string>
+    <string name="volver">Volver</string>
+    <string name="guardar">Guardar</string>
+    <!--Google Maps-->
+    <string name="google_play_services_version">AIzaSyDfCwDll4ubvvmg7-3dUqiylbB6NRxLJzg</string>
+    <string name="title_activity_lista_usuarios">ListaUsuarios</string>
+    <string name="title_activity_administrador_drawer">GoJoined</string>
+    <string name="buscar">Buscar</string>
+    <string name="tipomapa">Tipo de Mapa</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--NAVIGATION DRAWER-->
+    <string name="titulo_user">Usuarios de la aplicación</string>
+    <string name="titulo_ajustes">Ajustes e información</string>
+    <string name="verUsuarios">Ver Usuarios</string>
+    <string name="addUsuario">Agregar Usuario</string>
+    <string name="addClientes">Agregar Cliente</string>
+    <string name="addVisitas">Agregar Visitas</string>
+    <string name="cambiarTema">Cambiar Tema</string>
+    <string name="salir">Cerrar Sesión</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_usuario_drawer">GoJoined</string>
+    <string name="sesion">Sesión del usuario</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps_test">MapTest</string>
+
+</resources>

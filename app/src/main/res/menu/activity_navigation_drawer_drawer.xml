@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/titulo_user">
+            <menu>
+                <item
+                    android:id="@+id/nav_lista_usuarios"
+                    android:icon="@drawable/listausuarios"
+                    android:title="@string/verUsuarios" />
+                <!--<item
+                    android:id="@+id/nav_addusuario"
+                    android:icon="@drawable/useradd"
+                    android:title="@string/addUsuario" />-->
+            </menu>
+        </item>
+        <item android:title="@string/titulo_clientes">
+            <menu>
+                <item
+                    android:id="@+id/nav_lista_clientes"
+                    android:icon="@drawable/clientes"
+                    android:title="@string/verClientes" />
+                <item android:id="@+id/nav_mapas"
+                    android:icon="@drawable/mapas"
+                    android:title="@string/tituloMapsActivity"/>
+            </menu>
+        </item>
+    </group>
+    <item android:title="@string/titulo_visitas">
+        <menu>
+            <item
+                android:id="@+id/nav_lista_visitas"
+                android:icon="@drawable/listavisitas"
+                android:title="@string/verVisitas" />
+        </menu>
+    </item>
+    <item android:title="@string/titulo_ajustes">
+        <menu>
+            <item
+                android:id="@+id/nav_informacion"
+                android:icon="@drawable/informacion"
+                android:title="@string/informacion" />
+        </menu>
+    </item>
+
+
+    <item android:title="@string/sesion">
+        <menu>
+            <item android:id="@+id/nav_salir"
+                android:icon="@drawable/poweroff"
+                android:title="@string/salir" />
+        </menu>
+    </item>
+</menu>

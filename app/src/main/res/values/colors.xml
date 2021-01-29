@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3371FF</color>
+    <color name="md_red">#FF3333</color>
+    <color name="md_green">#27AE60</color>
+    <color name="md_rose">#F733FF</color>
+    <color name="md_yellow">#F3FF33</color>
+    <color name="md_white">#FFFF</color>
+</resources>

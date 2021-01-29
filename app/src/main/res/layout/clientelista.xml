@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp">
+    <!--android:background="@drawable/borde"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:id="@+id/txt_nomCliente"
+                android:gravity="center"
+                android:textAlignment="textStart"
+                android:textSize="14sp" />
+
+            <TextView
+                android:text=" "
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_space"
+                android:layout_weight="1"
+                android:elevation="1dp"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Appelido"
+                android:id="@+id/txt_appelidoCliente"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAlignment="viewStart"
+                android:textSize="14sp" />
+
+            <TextView
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_idcliente"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <TextView
+            android:text="empresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_empresa"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefono"
+            android:id="@+id/txt_telefono"
+            android:layout_weight="1"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Direccion"
+            android:id="@+id/txt_direccion"
+            android:layout_gravity="center_horizontal"
+            android:gravity="top|center_vertical|center_horizontal"
+            android:textAlignment="textStart"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

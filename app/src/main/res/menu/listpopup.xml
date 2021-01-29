@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Llamar"
+        android:id="@+id/men_llamar"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
+    <item
+        android:title="Editar"
+        android:id="@+id/men_editar"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
+    <item
+        android:title="Borrar"
+        android:id="@+id/men_borrar"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
+    <item
+        android:title="Cancelar"
+        android:id="@+id/men_cancel"
+        android:visible="true"
+        android:enabled="true"
+        android:checkable="false" />
+</menu>

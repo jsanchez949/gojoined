@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:orientation="vertical">
+    <!--android:background="@drawable/borde"-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="Maria del Mar Sanchez Gonzales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_nomCliente"
+            android:textSize="35px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="50€"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_cobro"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="35px"
+            android:textAlignment="textEnd"
+            android:gravity="end"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp">
+
+        <TextView
+            android:text="Descripcion de Tarea y las cosas que tienen que hacer. Es posible el texto es largo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_tarea"
+            android:layout_weight="1"
+            android:textAlignment="textStart"
+            android:gravity="start"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="950 123 456"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTelefono"
+            android:layout_weight="1"
+            android:textSize="30px"
+            android:textStyle="bold"
+            android:gravity="start"
+            android:fontFamily="sans-serif" />
+
+        <TextView
+            android:text="30/12/2016"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_fecha"
+            android:textSize="30px"
+            android:textStyle="bold"
+            android:textAlignment="textEnd"
+            android:gravity="end"
+            android:fontFamily="sans-serif" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <View
+            android:id="@+id/SplitLine_hor1"
+            android:layout_width="match_parent"
+            android:layout_height= "2dp"
+            android:background="#7ff946a5"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

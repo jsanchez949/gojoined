@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jesus.gojoined">
+
+    <!-- PERMISSIONS -->
+    <uses-permission android:name="com.google.android.gms.maps.GoogleMap" />
+    <uses-permission android:name="com.expocodetech.android.maps.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logogojoined"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".ListaUsuarios"
+            android:label="@string/tituloVentanaListaUsuarios" />
+        <activity
+            android:name=".ListaClientes"
+            android:label="@string/tituloVentanaListaClientes" />
+        <activity
+            android:name=".ListaCitas"
+            android:label="@string/tituloVentanaListaVisitas" />
+        <activity
+            android:name=".CitaDetail"
+            android:label="@string/tituloListaVisitasDetail" />
+        <activity
+            android:name=".FormUsuario"
+            android:label="@string/tituloVentanaAddUsuario" />
+        <activity
+            android:name=".ModificarUsuario"
+            android:label="@string/titulo" />
+        <activity
+            android:name=".FormCliente"
+            android:label="@string/tituloVentanaAddCliente" />
+        <activity
+            android:name=".FormCita"
+            android:label="@string/tituloVentanaAddCliente" />
+        <activity android:name=".VentanaDeCarga">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Informacion" />
+        <activity
+            android:name=".NavigationDrawer"
+            android:label="@string/title_activity_administrador_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivityTest"
+            android:label="@string/title_activity_maps_test" />
+    </application>
+
+</manifest>
